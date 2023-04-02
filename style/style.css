@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary colors */
+  --primary-light-red: hsl(0, 100%, 67%);
+  --primary-orangey-yellow: hsl(39, 100%, 56%);
+  --primary-green-teal: hsl(166, 100%, 37%);
+  --primary-cobalt-blue: hsl(234, 85%, 45%);
+  /* Gradients colors */
+  --gradient-light-slate-blue: hsl(252, 100%, 67%);
+  --gradient-royal-blue: hsl(241, 81%, 54%);
+  --gradient-violet-blue: hsla(256, 72%, 46%, 1);
+  --gradient-persian-blue: hsla(241, 72%, 46%, 0);
+  /* Neutral colors */
+  --natural-white: hsl(0, 0%, 100%);
+  --natural-pale-blue: hsl(221, 100%, 96%);
+  --natural-light-lavender: hsl(241, 100%, 89%);
+  --natural-dark-gray-blue: hsl(224, 30%, 27%);
+}
