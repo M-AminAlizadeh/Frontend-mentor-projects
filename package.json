@@ -3,6 +3,8 @@
     "node-module": "^2.0.0"
   },
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.6.0",
+    "stylelint-config-standard": "^33.0.0"
   }
 }
