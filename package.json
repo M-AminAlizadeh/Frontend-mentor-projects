@@ -1,0 +1,26 @@
+{
+  "name": "frontend-mentor-projects",
+  "version": "1.0.0",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-AminAlizadeh/Frontend-Mentor-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-AminAlizadeh/Frontend-Mentor-projects/issues"
+  },
+  "homepage": "https://github.com/M-AminAlizadeh/Frontend-Mentor-projects#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
