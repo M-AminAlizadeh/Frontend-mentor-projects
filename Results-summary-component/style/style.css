@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  /* Primary colors */
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orangey-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
+  /* Gradient colors */
+  --color-light-slate-blue-background: hsl(252, 100%, 67%);
+  --color-light-royal-blue-background: hsl(241, 81%, 54%);
+  --color-violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --color-persian-blue-circle: hsla(241, 72%, 46%, 0);
+  /* Neutral colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
+}
