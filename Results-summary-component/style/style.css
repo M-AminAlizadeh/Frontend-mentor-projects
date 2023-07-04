@@ -179,3 +179,7 @@
   border-radius: 4rem;
   font-size: 1rem;
 }
+
+.reference {
+  display: none;
+}
