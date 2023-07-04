@@ -182,6 +182,7 @@
   padding: 1rem;
   border-radius: 4rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .reference {
@@ -250,4 +251,13 @@
   .summary__button {
     padding: 0.8rem;
   }
+}
+
+/* Active states */
+.summary__button:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue-background),
+    var(--color-light-royal-blue-background)
+  );
 }
