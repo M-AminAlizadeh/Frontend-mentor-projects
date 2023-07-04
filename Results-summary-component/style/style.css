@@ -85,3 +85,97 @@
   color: var(--color-pale-blue);
   margin: 1rem 1.5rem;
 }
+
+/* Summary styling */
+.summary {
+  padding: 1.3rem;
+}
+
+.summary__header {
+  font-size: 1rem;
+  color: var(--color-dark-gray-blue);
+}
+
+.summary__aspects-container {
+  list-style: none;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.summary__aspect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.summary__status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary__status-name {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.summary__score-container {
+  font-size: 0.9rem;
+}
+
+.summary__score {
+  font-weight: 900;
+  color: var(--color-dark-gray-blue);
+  margin-right: 0.2rem;
+}
+
+.summary__total-score {
+  color: var(--color-light-lavender);
+}
+
+.summary--reaction {
+  color: var(--color-light-red);
+}
+
+.summary--memory {
+  color: var(--color-orangey-yellow);
+}
+
+.summary--verbal {
+  color: var(--color-green-teal);
+}
+
+.summary--visual {
+  color: var(--color-cobalt-blue);
+}
+
+.summary__aspect--reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.summary__aspect--memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.summary__aspect--verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.summary__aspect--visual {
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.summary__button {
+  color: var(--color-white);
+  background-color: var(--color-dark-gray-blue);
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+}

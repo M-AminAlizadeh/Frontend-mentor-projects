@@ -23,21 +23,51 @@
     <section class="summary">
       <h2 class="summary__header">Summary</h2>
       <ul class="summary__aspects-container">
-        <li class="summary__aspect">
-          <span class="summary__status">Reaction </span>
+        <li class="summary__aspect summary__aspect--reaction">
+          <div class="summary__status">
+            <img src="./assets/images/icon-reaction.svg" alt="icon-reaction" />
+            <div class="summary__status-name summary--reaction">Reaction</div>
+          </div>
           <div class="summary__score-container">
-            <span class="summary__score">80</span>
+            <span class="summary__score">80 </span>
+            <span class="summary__total-score">/ 100</span>
+          </div>
+        </li>
+        <li class="summary__aspect summary__aspect--memory">
+          <div class="summary__status">
+            <img src="./assets/images/icon-memory.svg" alt="icon-memory" />
+            <div class="summary__status-name summary--memory">Memory</div>
+          </div>
+          <div class="summary__score-container">
+            <span class="summary__score">92 </span>
+            <span class="summary__total-score">/ 100</span>
+          </div>
+        </li>
+        <li class="summary__aspect summary__aspect--verbal">
+          <div class="summary__status">
+            <img src="./assets/images/icon-verbal.svg" alt="icon-verbal" />
+            <div class="summary__status-name summary--verbal">Verbal</div>
+          </div>
+          <div class="summary__score-container">
+            <span class="summary__score">61 </span>
+            <span class="summary__total-score">/ 100</span>
+          </div>
+        </li>
+        <li class="summary__aspect summary__aspect--visual">
+          <div class="summary__status">
+            <img src="./assets/images/icon-visual.svg" alt="icon-visual" />
+            <div class="summary__status-name summary--visual">Visual</div>
+          </div>
+          <div class="summary__score-container">
+            <span class="summary__score">72 </span>
             <span class="summary__total-score">/ 100</span>
           </div>
         </li>
       </ul>
       <button class="summary__button">Continue</button>
     </section>
-    <!-- <li class="summary__item">Memory 92 / 100</li>
-    <li class="summary__item">Verbal 61 / 100</li>
-    <li class="summary__item">Visual 72 / 100</li> -->
-    <!-- Introduction -->
-    <!-- <div class="attribution">
+    <!-- Refrence -->
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
@@ -45,6 +75,6 @@
       <a href="https://github.com/M-AminAlizadeh/Frontend-Mentor-projects"
         >M.Amin Alizadeh</a
       >.
-    </div> -->
+    </div>
   </body>
 </html>
