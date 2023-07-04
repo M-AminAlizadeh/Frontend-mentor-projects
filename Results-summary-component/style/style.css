@@ -13,18 +13,22 @@
   --color-orangey-yellow: hsl(39, 100%, 56%);
   --color-green-teal: hsl(166, 100%, 37%);
   --color-cobalt-blue: hsl(234, 85%, 45%);
+
   /* Gradient colors */
   --color-light-slate-blue-background: hsl(252, 100%, 67%);
   --color-light-royal-blue-background: hsl(241, 81%, 54%);
   --color-violet-blue-circle: hsla(256, 72%, 46%, 1);
   --color-persian-blue-circle: hsla(241, 72%, 46%, 0);
+
   /* Neutral colors */
   --color-white: hsl(0, 0%, 100%);
   --color-pale-blue: hsl(221, 100%, 96%);
   --color-light-lavender: hsl(241, 100%, 89%);
   --color-dark-gray-blue: hsl(224, 30%, 27%);
+
   /* Font-family */
   --font-family-main: "Hanken Grotesk", sans-serif;
+
   font-size: 18px;
 }
 
@@ -35,11 +39,12 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: linear-gradient(
-    to bottom,
-    var(--color-light-slate-blue-background),
-    var(--color-light-royal-blue-background)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      var(--color-light-slate-blue-background),
+      var(--color-light-royal-blue-background)
+    );
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -57,11 +62,12 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(
-    to bottom,
-    var(--color-violet-blue-circle),
-    var(--color-persian-blue-circle)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      var(--color-violet-blue-circle),
+      var(--color-persian-blue-circle)
+    );
 }
 
 .result__score {
