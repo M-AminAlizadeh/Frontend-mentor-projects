@@ -1,9 +1,0 @@
-The things that I will do for this project:
-+ No linter errors
-+ Mobile first
-+ Full responsive
-+ Clean code
-+ Use Gitflow
-+ Use Githubflow and branching
-+ Document this project in Readme file
-+ Use only Html, Css
