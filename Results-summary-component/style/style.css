@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap");
+
 :root {
   /* Primary colors */
   --color-light-red: hsl(0, 100%, 67%);
@@ -38,11 +39,12 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: linear-gradient(
-    to bottom,
-    var(--color-light-slate-blue-background),
-    var(--color-light-royal-blue-background)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      var(--color-light-slate-blue-background),
+      var(--color-light-royal-blue-background)
+    );
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -60,11 +62,12 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(
-    to bottom,
-    var(--color-violet-blue-circle),
-    var(--color-persian-blue-circle)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      var(--color-violet-blue-circle),
+      var(--color-persian-blue-circle)
+    );
 }
 
 .result__score {
@@ -87,6 +90,7 @@
   font-size: 0.9rem;
   color: var(--color-light-lavender);
   margin: 1rem 1.5rem;
+  text-align: center;
 }
 
 /* Summary styling */
@@ -202,7 +206,7 @@
   }
 
   .container {
-    box-shadow: 1px 1px 40px 0px var(--color-light-lavender);
+    box-shadow: 1px 1px 40px 0 var(--color-light-lavender);
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
@@ -276,7 +280,7 @@
   }
 
   .container {
-    box-shadow: 1px 1px 40px 0px var(--color-light-lavender);
+    box-shadow: 1px 1px 40px 0 var(--color-light-lavender);
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
@@ -350,7 +354,7 @@
   }
 
   .container {
-    box-shadow: 1px 1px 40px 0px var(--color-light-lavender);
+    box-shadow: 1px 1px 40px 0 var(--color-light-lavender);
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
@@ -412,9 +416,10 @@
 
 /* Active states */
 .summary__button:hover {
-  background: linear-gradient(
-    to bottom,
-    var(--color-light-slate-blue-background),
-    var(--color-light-royal-blue-background)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      var(--color-light-slate-blue-background),
+      var(--color-light-royal-blue-background)
+    );
 }
