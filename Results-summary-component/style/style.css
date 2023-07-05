@@ -336,6 +336,79 @@
   }
 }
 
+/* Tablet styling */
+@media (min-width: 625px) and (max-width: 899px) {
+  :root {
+    font-size: 18px;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    box-shadow: 1px 1px 40px 0px var(--color-light-lavender);
+    display: flex;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 85%;
+    height: 450px;
+  }
+
+  .result {
+    border-radius: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .summary {
+    padding: 1.3rem 1.8rem;
+    flex: 0.9;
+  }
+
+  .result__score-container {
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+  }
+
+  .result__details {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 1rem 2rem;
+  }
+
+  .summary__header {
+    font-size: 1.3rem;
+  }
+
+  .summary__aspect {
+    padding: 0.8rem;
+  }
+
+  .summary__button {
+    padding: 0.8rem;
+  }
+
+  .reference {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .reference a {
+    text-decoration: none;
+    color: var(--color-light-royal-blue-background);
+  }
+
+  .reference a:hover {
+    text-decoration: underline;
+    color: var(--color-light-red);
+  }
+}
 
 /* Active states */
 .summary__button:hover {
