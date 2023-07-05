@@ -38,12 +38,11 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-light-slate-blue-background),
-      var(--color-light-royal-blue-background)
-    );
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue-background),
+    var(--color-light-royal-blue-background)
+  );
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -61,12 +60,11 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-violet-blue-circle),
-      var(--color-persian-blue-circle)
-    );
+  background: linear-gradient(
+    to bottom,
+    var(--color-violet-blue-circle),
+    var(--color-persian-blue-circle)
+  );
 }
 
 .result__score {
@@ -252,14 +250,30 @@
   .summary__button {
     padding: 0.8rem;
   }
+
+  .reference {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .reference a {
+    text-decoration: none;
+    color: var(--color-light-royal-blue-background);
+  }
+
+  .reference a:hover {
+    text-decoration: underline;
+    color: var(--color-light-red);
+  }
 }
 
 /* Active states */
 .summary__button:hover {
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-light-slate-blue-background),
-      var(--color-light-royal-blue-background)
-    );
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue-background),
+    var(--color-light-royal-blue-background)
+  );
 }
