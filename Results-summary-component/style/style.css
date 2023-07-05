@@ -202,7 +202,7 @@
   }
 
   .container {
-    box-shadow: 0 0 10px var(--color-light-lavender);
+    box-shadow: 1px 1px 40px 0px var(--color-light-lavender);
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
