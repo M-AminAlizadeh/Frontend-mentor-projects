@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap");
 :root {
   /* Primary colors */
   --color-light-red: hsl(0, 100%, 67%);
@@ -22,8 +23,6 @@
 
   font-size: 18px;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap");
 
 * {
   margin: 0;
