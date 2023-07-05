@@ -210,18 +210,15 @@
     height: 500px;
   }
 
-  .result,
-  .summary {
-    flex: 1;
-  }
-
   .result {
     border-radius: 0;
     padding: 0;
+    flex: 1;
   }
 
   .summary {
     padding: 1.3rem 1.8rem;
+    flex: 0.9;
   }
 
   .result__score-container {
