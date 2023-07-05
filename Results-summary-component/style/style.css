@@ -49,7 +49,7 @@
 .result__header {
   font-size: 1.1rem;
   font-weight: 800;
-  color: var(--color-pale-blue);
+  color: var(--color-light-lavender);
 }
 
 .result__score-container {
@@ -85,7 +85,7 @@
 
 .result__details {
   font-size: 0.9rem;
-  color: var(--color-pale-blue);
+  color: var(--color-light-lavender);
   margin: 1rem 1.5rem;
 }
 
@@ -234,10 +234,6 @@
 
   .summary__header {
     font-size: 1.3rem;
-  }
-
-  .summary__status-name {
-    font-weight: 900;
   }
 
   .summary__aspect {
