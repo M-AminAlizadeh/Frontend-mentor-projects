@@ -39,12 +39,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-light-slate-blue-background),
-      var(--color-light-royal-blue-background)
-    );
+  background: linear-gradient(to bottom, var(--color-light-slate-blue-background), var(--color-light-royal-blue-background));
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -62,12 +57,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-violet-blue-circle),
-      var(--color-persian-blue-circle)
-    );
+  background: linear-gradient(to bottom, var(--color-violet-blue-circle), var(--color-persian-blue-circle));
 }
 
 .result__score {
@@ -414,12 +404,34 @@
   }
 }
 
+/* Landscape mode styling */
+@media (orientation: landscape) and (max-width: 900px) {
+  :root {
+    font-size: 14px;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    box-shadow: 1px 1px 40px 0 var(--color-light-lavender);
+    display: flex;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 85%;
+    height: 95vh;
+  }
+
+  .reference {
+    display: none;
+  }
+}
+
 /* Active states */
 .summary__button:hover {
-  background:
-    linear-gradient(
-      to bottom,
-      var(--color-light-slate-blue-background),
-      var(--color-light-royal-blue-background)
-    );
+  background: linear-gradient(to bottom, var(--color-light-slate-blue-background), var(--color-light-royal-blue-background));
 }
