@@ -9,8 +9,10 @@
   --natural-grayish-cyan-light: hsl(185, 41%, 84%);
   --natural-grayish-cyan-very-light: hsl(189, 41%, 97%);
   --natural-white: hsl(0, 0%, 100%);
+
   /* Font family */
   --font-family-main: "Space Mono", monospace;
+
   font-size: 16px;
 }
 
@@ -60,7 +62,6 @@
 .number-of-people__input-container {
   display: flex;
   align-items: center;
-  border-radius: 0.3125rem;
   background-color: var(--natural-grayish-cyan-very-light);
   padding: 0.37rem 1rem;
   border-radius: 0.3125rem;
