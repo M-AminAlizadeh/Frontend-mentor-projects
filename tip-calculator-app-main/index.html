@@ -7,14 +7,68 @@
     <title>Tip calculator app</title>
   </head>
   <body>
-    <!-- Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
-    person Total / person Reset
+    <main class="container">
+      <!-- logo -->
+      <img src="./assets/images/logo.svg" alt="logo" />
+      <!-- Tip calculator -->
+      <section class="tip-calculator">
+        <!-- Bill -->
+        <section class="bill">
+          <h2 class="bill__header">Bill</h2>
+          <div class="bill__input-container">
+            <img src="./assets/images/icon-dollar.svg" alt="dollar icon" />
+            <input type="number" class="bill__input" min="0" />
+          </div>
+        </section>
+        <!-- Select tip -->
+        <section class="select-tip">
+          <h2 class="select-tip__header">Select Tip %</h2>
+          <div class="select-tip__btns">
+            <button class="select-tip__btn">5%</button>
+            <button class="select-tip__btn">10%</button>
+            <button class="select-tip__btn">15%</button>
+            <button class="select-tip__btn">25%</button>
+            <button class="select-tip__btn">50%</button>
+            <input
+              type="number"
+              class="select-tip__input"
+              min="0"
+              placeholder="Custom" />
+          </div>
+        </section>
+        <!-- Number of peopele -->
+        <section class="number-of-people">
+          <h2 class="number-of-people__header">Number of People</h2>
+          <div class="number-of-people__input-container">
+            <img src="./assets/images/icon-person.svg" alt="person icon" />
+            <input type="text" class="number-of-people__input" min="0" />
+          </div>
+        </section>
+        <!-- Show screen -->
+        <section class="show-screen">
+          <div class="show-screen__tip-amount-container">
+            <h3 class="show-screen__tip-amount__header">Tip Amount</h3>
+            p.show-screen
+          </div>
+          <div class="show-screen__total-container">
+            <h3 class="show-screen__total__header">Total</h3>
+          </div>
+        </section>
+      </section>
+    </main>
+    / person / person Reset
 
-    <div class="attribution">
+    <footer class="reference">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX"
+        target="_blank"
+        rel="noopener"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by
+      <a href="https://github.com/M-AminAlizadeh/Frontend-Mentor-projects"
+        >M.Amin Alizadeh</a
+      >.
+    </footer>
   </body>
 </html>
