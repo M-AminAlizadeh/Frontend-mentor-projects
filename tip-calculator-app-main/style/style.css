@@ -177,6 +177,17 @@
   display: none;
 }
 
+/* Number inputs arrows style */
+.bill__input::-webkit-outer-spin-button,
+.bill__input::-webkit-inner-spin-button,
+.select-tip__input::-webkit-outer-spin-button,
+.select-tip__input::-webkit-inner-spin-button,
+.number-of-people__input::-webkit-outer-spin-button,
+.number-of-people__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* Desktop & TV styling */
 @media (min-width: 1440px) {
   body {
