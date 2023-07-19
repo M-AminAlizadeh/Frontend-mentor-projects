@@ -20,7 +20,7 @@
           <h2 class="bill__header">Bill</h2>
           <div class="bill__input-container">
             <img src="./assets/images/icon-dollar.svg" alt="dollar icon" />
-            <input type="number" class="bill__input" min="0" />
+            <input type="number" class="bill__input" min="0" placeholder="0" />
           </div>
         </section>
 
@@ -44,7 +44,11 @@
           <h2 class="number-of-people__header">Number of People</h2>
           <div class="number-of-people__input-container">
             <img src="./assets/images/icon-person.svg" alt="person icon" />
-            <input type="text" class="number-of-people__input" min="0" />
+            <input
+              type="number"
+              class="number-of-people__input"
+              min="0"
+              placeholder="0" />
           </div>
         </section>
 
@@ -54,14 +58,14 @@
               Tip Amount
               <p class="show-screen__tip-amount__header__person">/ person</p>
             </h3>
-            <div class="show-screen__tip-amount__value">$4.27</div>
+            <div class="show-screen__tip-amount__value">$0.00</div>
           </div>
           <div class="show-screen__total-container">
             <h3 class="show-screen__total__header">
               Total
               <p class="show-screen__total__header__person">/ person</p>
             </h3>
-            <div class="show-screen__total__value">$32.79</div>
+            <div class="show-screen__total__value">$0.00</div>
           </div>
 
           <button class="show-screen__reset-btn">Reset</button>
