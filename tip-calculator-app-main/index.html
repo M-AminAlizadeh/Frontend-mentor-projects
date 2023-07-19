@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/color/48/charity-donation.png"
+      type="image/x-icon" />
+    <title>Tip Calculator App</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="brand-container">
+        <img src="./assets/images/logo.svg" alt="logo" />
+      </section>
+      <section class="tip-calculator">
+        <section class="bill">
+          <h2 class="bill__header">Bill</h2>
+          <div class="bill__input-container">
+            <img src="./assets/images/icon-dollar.svg" alt="dollar icon" />
+            <input type="number" class="bill__input" min="0" />
+          </div>
+        </section>
+
+        <section class="select-tip">
+          <h2 class="select-tip__header">Select Tip %</h2>
+          <div class="select-tip__btns">
+            <button class="select-tip__btn">5%</button>
+            <button class="select-tip__btn">10%</button>
+            <button class="select-tip__btn">15%</button>
+            <button class="select-tip__btn">25%</button>
+            <button class="select-tip__btn">50%</button>
+            <input
+              type="number"
+              class="select-tip__input"
+              min="0"
+              placeholder="Custom" />
+          </div>
+        </section>
+
+        <section class="number-of-people">
+          <h2 class="number-of-people__header">Number of People</h2>
+          <div class="number-of-people__input-container">
+            <img src="./assets/images/icon-person.svg" alt="person icon" />
+            <input type="text" class="number-of-people__input" min="0" />
+          </div>
+        </section>
+
+        <section class="show-screen">
+          <div class="show-screen__tip-amount-container">
+            <h3 class="show-screen__tip-amount__header">
+              Tip Amount
+              <p class="show-screen__tip-amount__header__person">/ person</p>
+            </h3>
+            <div class="show-screen__tip-amount__value">$4.27</div>
+          </div>
+          <div class="show-screen__total-container">
+            <h3 class="show-screen__total__header">
+              Total
+              <p class="show-screen__total__header__person">/ person</p>
+            </h3>
+            <div class="show-screen__total__value">$32.79</div>
+          </div>
+
+          <button class="show-screen__reset-btn">Reset</button>
+        </section>
+      </section>
+    </main>
+
+    <footer class="reference">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX"
+        target="_blank"
+        rel="noopener"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/M-AminAlizadeh/Frontend-Mentor-projects"
+        >M.Amin Alizadeh</a
+      >.
+    </footer>
+  </body>
+</html>
