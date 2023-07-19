@@ -74,7 +74,7 @@
   background-color: var(--natural-grayish-cyan-very-light);
   color: var(--natural-cyan-dark);
   font-size: 1.5rem;
-  direction: rtl;
+  text-align: right;
   outline: none;
   caret-color: var(--primary-color);
 }
@@ -107,7 +107,7 @@
   border: none;
   font-size: 1.5rem;
   outline: none;
-  direction: rtl;
+  text-align: right;
   border-radius: 0.3125rem;
   padding: 0.37rem 1rem;
   color: var(--natural-cyan-dark);
