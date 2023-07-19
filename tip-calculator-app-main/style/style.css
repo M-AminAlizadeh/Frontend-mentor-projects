@@ -221,7 +221,7 @@
   .bill {
     margin-left: 3rem;
     margin-top: 2.81rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     margin-right: 1.5rem;
     grid-column: 1/2;
   }
@@ -303,13 +303,13 @@
     justify-content: space-around;
     align-items: center;
     width: 64%;
-    height:0%;
+    height: 0%;
   }
-  
+
   .brand-container {
     margin-bottom: 5.5rem;
   }
-  
+
   .tip-calculator {
     width: 100%;
     display: grid;
@@ -321,7 +321,7 @@
   .bill {
     margin-left: 3rem;
     margin-top: 2.81rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     margin-right: 1.5rem;
     grid-column: 1/2;
   }
