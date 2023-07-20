@@ -60,6 +60,7 @@
 
 .bill__input-container,
 .number-of-people__input-container {
+  border: 2px solid transparent;
   display: flex;
   align-items: center;
   background-color: var(--natural-grayish-cyan-very-light);
@@ -104,7 +105,7 @@
 .select-tip__input {
   background-color: var(--natural-grayish-cyan-very-light);
   width: 100%;
-  border: none;
+  border: 2px solid transparent;
   font-size: 1.5rem;
   outline: none;
   text-align: right;
@@ -383,4 +384,14 @@
   .show-screen__reset-btn:hover {
     background-color: hsla(172, 61%, 77%, 1);
   }
+}
+
+/* for Js */
+.selected-input {
+  border: 2px solid var(--primary-color);
+}
+
+.clicked-btn {
+  background-color: hsla(173, 61%, 77%, 1) !important;
+  color: var(--natural-cyan-dark) !important;
 }
