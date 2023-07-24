@@ -50,7 +50,7 @@ const automation = () => {
         numberOfPeople
       ).toFixed(2);
       totalPerPerson.innerText = (
-        (billValue + tipValue) /
+        (billValue + billValue * (tipValue / 100)) /
         numberOfPeople
       ).toFixed(2);
     }
