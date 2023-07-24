@@ -58,6 +58,11 @@
   margin-bottom: 0.37rem;
 }
 
+.number-of-people__header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .bill__input-container,
 .number-of-people__input-container {
   border: 2px solid transparent;
@@ -398,4 +403,13 @@
 
 .clicked-reset-btn {
   background-color: hsla(183, 78%, 24%, 1) !important;
+}
+
+.number-of-people__error-style {
+  border: 2px solid hsla(13, 70%, 61%, 1) !important;
+}
+
+.number-of-people__error-message {
+  color: hsla(13, 70%, 61%, 1);
+  text-align: right;
 }
