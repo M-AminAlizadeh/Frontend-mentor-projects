@@ -194,6 +194,14 @@
   margin: 0;
 }
 
+.bill__input[type="number"],
+.select-tip__input[type="number"],
+.number-of-people__input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
 /* Desktop & TV styling */
 @media (min-width: 1440px) {
   body {
