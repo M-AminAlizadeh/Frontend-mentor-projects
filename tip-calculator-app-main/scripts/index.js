@@ -1,9 +1,9 @@
-import inputSelection from './modules/inputSelection.js';
-import btnSelection from './modules/btnSelection.js';
-import calculateAndDisplayData from './modules/calculateAndDisplayData.js';
-import errorHandler from './modules/errorHandler.js';
+import handleInputsEvents from "./modules/handleInputsEvents.js";
+import handleTipButtonsEvents from "./modules/handleTipButtonsEvents.js";
+import calculateAndDisplayData from "./modules/calculateAndDisplayData.js";
+import errorHandler from "./modules/errorHandler.js";
 
-inputSelection();
-btnSelection();
+handleInputsEvents();
+handleTipButtonsEvents();
 calculateAndDisplayData();
 errorHandler();
