@@ -397,16 +397,16 @@
 }
 
 .clicked-btn {
-  background-color: hsla(173, 61%, 77%, 1) !important;
-  color: var(--natural-cyan-dark) !important;
+  background-color: hsla(173, 61%, 77%, 1);
+  color: var(--natural-cyan-dark);
 }
 
 .clicked-reset-btn {
-  background-color: hsla(183, 78%, 24%, 1) !important;
+  background-color: hsla(183, 78%, 24%, 1);
 }
 
 .number-of-people__error-style {
-  border: 2px solid hsla(13, 70%, 61%, 1) !important;
+  border: 2px solid hsla(13, 70%, 61%, 1);
 }
 
 .number-of-people__error-message {
