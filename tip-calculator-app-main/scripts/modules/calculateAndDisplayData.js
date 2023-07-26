@@ -1,4 +1,4 @@
-const automation = () => {
+const calculateAndDisplayData = () => {
   const billInput = document.querySelector('.bill__input');
   const numberOfPeopleInput = document.querySelector(
     '.number-of-people__input',
@@ -75,4 +75,4 @@ const automation = () => {
   });
 };
 
-export default automation;
+export default calculateAndDisplayData;
