@@ -58,8 +58,14 @@
   margin-bottom: 0.37rem;
 }
 
+.number-of-people__header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .bill__input-container,
 .number-of-people__input-container {
+  border: 2px solid transparent;
   display: flex;
   align-items: center;
   background-color: var(--natural-grayish-cyan-very-light);
@@ -104,7 +110,7 @@
 .select-tip__input {
   background-color: var(--natural-grayish-cyan-very-light);
   width: 100%;
-  border: none;
+  border: 2px solid transparent;
   font-size: 1.5rem;
   outline: none;
   text-align: right;
@@ -185,6 +191,14 @@
 .number-of-people__input::-webkit-outer-spin-button,
 .number-of-people__input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  margin: 0;
+}
+
+.bill__input[type="number"],
+.select-tip__input[type="number"],
+.number-of-people__input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
   margin: 0;
 }
 
@@ -376,11 +390,34 @@
   }
 
   .show-screen__reset-btn {
-    background-color: hsla(183, 78%, 24%, 1);
+    background-color: var(--primary-color);
     cursor: pointer;
   }
 
   .show-screen__reset-btn:hover {
     background-color: hsla(172, 61%, 77%, 1);
   }
+}
+
+/* for Js */
+.selected-input {
+  border: 2px solid var(--primary-color);
+}
+
+.clicked-btn {
+  background-color: hsla(173, 61%, 77%, 1);
+  color: var(--natural-cyan-dark);
+}
+
+.clicked-reset-btn {
+  background-color: hsla(183, 78%, 24%, 1);
+}
+
+.number-of-people__error-style {
+  border: 2px solid hsla(13, 70%, 61%, 1);
+}
+
+.number-of-people__error-message {
+  color: hsla(13, 70%, 61%, 1);
+  text-align: right;
 }
