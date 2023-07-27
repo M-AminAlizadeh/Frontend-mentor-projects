@@ -296,6 +296,23 @@
   .show-screen__reset-btn:hover {
     background-color: hsla(172, 61%, 77%, 1);
   }
+
+  .reference {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .reference a {
+    text-decoration: none;
+    color: var(--color-light-royal-blue-background);
+  }
+
+  .reference a:hover {
+    text-decoration: underline;
+    color: var(--color-light-red);
+  }
 }
 
 /* Laptop styling */
@@ -396,6 +413,23 @@
 
   .show-screen__reset-btn:hover {
     background-color: hsla(172, 61%, 77%, 1);
+  }
+
+  .reference {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .reference a {
+    text-decoration: none;
+    color: var(--color-light-royal-blue-background);
+  }
+
+  .reference a:hover {
+    text-decoration: underline;
+    color: var(--color-light-red);
   }
 }
 
