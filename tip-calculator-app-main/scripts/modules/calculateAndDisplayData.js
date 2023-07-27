@@ -14,11 +14,33 @@ const calculateAndDisplayData = () => {
   let billValue = 0;
   let tipValue = 0;
   let numberOfPeople = 0;
+  const numericChars = [
+    '0',
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '.',
+    'Backspace',
+    'ArrowRight',
+    'ArrowLeft',
+  ];
 
   // Collect info from user
   billInput.addEventListener('input', (e) => {
     billValue = Number(e.target.value);
     resetBtn.classList.remove('clicked-reset-btn');
+  });
+
+  billInput.addEventListener('keydown', (e) => {
+    if (!numericChars.includes(e.key)) {
+      e.preventDefault();
+    }
   });
 
   selectTipBtns.forEach((btn) => {
@@ -38,9 +60,21 @@ const calculateAndDisplayData = () => {
     tipValue = Number(e.target.value);
   });
 
+  selectTipInput.addEventListener('keydown', (e) => {
+    if (!numericChars.includes(e.key)) {
+      e.preventDefault();
+    }
+  });
+
   numberOfPeopleInput.addEventListener('input', (e) => {
     numberOfPeople = Number(e.target.value);
     resetBtn.classList.remove('clicked-reset-btn');
+  });
+
+  numberOfPeopleInput.addEventListener('keydown', (e) => {
+    if (!numericChars.includes(e.key)) {
+      e.preventDefault();
+    }
   });
 
   // Calculate & display results
