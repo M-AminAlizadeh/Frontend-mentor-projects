@@ -1,5 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  /* Colors */
+  --primary-color: hsl(185, 75%, 39%);
+  --primary-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --primary-dark-grayish-blue: hsl(227, 10%, 46%);
+  --natural-dark-gray: hsl(0, 0%, 59%);
+  /* Font family */
+  --font-family-main: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--font-family-main);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color);
+  background-image: url(../assets/images/bg-pattern-top.svg),
+    url(../assets/images/bg-pattern-bottom.svg);
+  background-position: calc(50% - 28rem) calc(50vh - 60rem),
+    calc(50% + 28rem) calc(50vh + 1rem);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile card style */
+.profile-card {
+  width: 87%;
+  max-width: 21.9rem;
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.profile-card__header {
+  background-image: url(../assets/images/bg-pattern-card.svg);
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+}
+
+.profile-card__header__picture-container {
+  border: 5px solid #fff;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100px;
+  background-image: url(../assets/images/image-victor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5rem;
+}
+
+.profile-card__personal-info {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.profile-card__personal-info__name {
+  font-weight: 700;
+  color: var(--primary-very-dark-desaturated-blue);
+  font-size: 1.125rem;
+  padding-right: 0.03125rem;
+}
+
+.profile-card__personal-info__age {
+  color: var(--primary-dark-grayish-blue);
+}
+
+.profile-card__personal-info__location {
+  color: var(--primary-dark-grayish-blue);
+  margin-top: 0.8rem;
+  margin-bottom: 1.75rem;
+}
+
+.profile-card__personal-info {
+  border-bottom: 0.06rem solid hsla(228, 9%, 92%, 1);
+}
+
+.profile-card__social-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.profile-card__social-info__followers-container,
+.profile-card__social-info__likes-container,
+.profile-card__social-info__photos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card__social-info__followers-count,
+.profile-card__social-info__likes-count,
+.profile-card__social-info__photos-count {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--primary-very-dark-desaturated-blue);
+  text-align: center;
+}
+
+.profile-card__social-info__followers-label,
+.profile-card__social-info__likes-label,
+.profile-card__social-info__photos-label {
+  font-size: 0.625rem;
+  color: var(--natural-dark-gray);
+  letter-spacing: 0.09375rem;
+  margin-top: 0.56rem;
+}
+
+.reference {
+  display: none;
+}
+
+@media (min-width: 376px) {
+  .profile-card__personal-info__age {
+    font-size: 1.125rem;
+  }
+
+  .reference {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .reference a {
+    text-decoration: none;
+    color: var(--color-light-royal-blue-background);
+  }
+
+  .reference a:hover {
+    text-decoration: underline;
+    color: var(--color-light-red);
+  }
 }
